@@ -22,9 +22,9 @@
 
 .title {
   position: relative;
-  background-color: rgba(0, 0, 0, 1);
   color: rgb(255, 255, 255);
-  padding: 20px;
+  font-weight: lighter;
+  padding: 20px;  
   font-size: 1.8em;
   border-radius: 5px;
 }
@@ -37,17 +37,16 @@
 
 .questionBox {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(77, 75, 75, 0.2);
   margin-top: 5px;
   padding: 15px;
   box-sizing: border-box;
-  background-color: rgb(250, 250, 250);
 }
 
 .answerBtn {
   position: relative;
   padding: 10px;
-  background-color: rgb(247, 107, 200);
+  background-color: rgb(119, 158, 180);
   display: inline-block;
   margin: 10px;
   outline: none;
@@ -57,6 +56,9 @@
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
+}
+.answerBtn:hover {
+  color: rgb(74, 98, 117);
 }
 
 .score-board {
@@ -77,7 +79,7 @@
   font-size: 1.4em;
   padding: 10px;
   top: 350px;
-  background-color: rgb(235, 124, 229);
+  background-color: rgb(245, 151, 114);
   color: rgb(255, 255, 255);
   width: 150px;
   left: 0px;
